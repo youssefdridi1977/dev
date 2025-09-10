@@ -14,7 +14,7 @@ pipeline {
       steps {
         // Remplacez par vos commandes de build
         sh 'echo "Build du projet"'
-        mvn clean install
+        sh 'mvn clean install'
       }
     }
 
